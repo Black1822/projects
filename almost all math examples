@@ -1,0 +1,54 @@
+package learningfile;
+
+public class mathexample {
+
+    public static void main(String[] args) {
+
+        menuGoster();
+        sayilariTopla(32 ,76);
+        sayilariTopla(21 ,9);
+        sayilariTopla(26 ,7);
+
+        int sayi = 6;
+        sayiyiDegistir(sayi);
+        System.out.println("sayının değeri :"+sayi);
+
+        System.out.println("fark :" + sayilarinFarkiniBul(1930,2023));
+
+        int donulenDeger = sayilarinFarkiniBul(10,6);
+        System.out.println("dönülen değer :"+donulenDeger);
+
+        double rastgelesayi = Math.random();
+        System.out.println("rastgele sayı:" + rastgelesayi);
+    }
+
+       public static int sayilarinFarkiniBul(int a, int b) {
+
+           System.out.println("sayıların farkı :" + (a - b));
+           return a;
+       }
+
+    private static void sayiyiDegistir(int x) {
+        System.out.println(("gönderiler sayının 10 fazlası:" + x));
+
+    }
+
+    public static void sayilariTopla(int  birinciSayi , int ikinciSayi){
+
+
+        System.out.println("toplam : "+ (birinciSayi + ikinciSayi));
+
+        System.out.println("toplam : "+ (birinciSayi+ikinciSayi));
+
+    }
+
+    public static void menuGoster(){
+        System.out.println("*****MENU*****");
+        System.out.println("1- iki sayinin toplamini bul");
+        System.out.println("2- iki sayinin farkini bul");
+        System.out.println("3- iki sayinin carpimini bul");
+
+
+
+    }
+}
