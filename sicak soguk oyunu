@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class sicaksoguk {
+    public static void main(String[] args) {
+
+        Scanner tara = new Scanner(System.in);
+
+        int uretilenSayi = (int) (Math.random() * 101);
+        int tahmin = -1;
+        int tahminEtmeSayisi = 0;
+
+        while (tahmin != uretilenSayi ) {
+
+            System.out.println("Tahmininizi Giriniz:");
+            tahmin = tara.nextInt();
+            tahminEtmeSayisi++;
+
+            if (tahmin == uretilenSayi){
+            System.out.println("Tebrikler !" + tahminEtmeSayisi + "seferde sayıyı buldunuz");
+        }else if (tahmin > uretilenSayi){
+                System.out.println("Tahmin ettiğin sayı çok yüksek düşürün");
+            }else{
+                System.out.println("Tahmin ettiğiniz sayı çok alçak yükseltin");
+            }
+        }
+    }
+ }
