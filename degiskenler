@@ -1,0 +1,9 @@
+public class degisken {
+    public static void main(String[] args) {
+        int black;
+        int white;
+        white=5;
+        black=10;
+        System.out.println("black "+black*white);
+    }
+}
