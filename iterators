@@ -1,0 +1,33 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class help {
+
+    public static void main(String[] args) {
+        ArrayList<Integer> sayilar = new ArrayList<>();
+        ArrayList<Integer> sayilar2 = new ArrayList<>();
+
+        sayilar.add(1);
+        sayilar.add(2);
+        sayilar.add(3);
+
+        sayilar2.add(2);
+        sayilar2.add(5);
+        sayilar2.add(6);
+
+        Iterator<Integer> iterator = sayilar.iterator();
+        while (iterator.hasNext()) {
+
+
+            while (iterator.hasNext()) {
+                if (sayilar2.contains(iterator.next())) {
+                    iterator.remove();
+                }
+
+            }
+
+            System.out.println(sayilar);
+            System.out.println(sayilar2);
+        }
+    }
+}
