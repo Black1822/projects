@@ -1,0 +1,13 @@
+package learningfile;
+
+public class defaultmath {
+
+    public static void main(String[] args) {
+        System.out.println("pi sayisi : "+ Math.PI);
+        System.out.println("pi sayisi : "+ Math.E);
+
+        System.out.println("-56'in mutlak degeri : "+ Math.abs(-56));
+        System.out.println("7.5 nin yuvarlanmış hali : "+ Math.ceil(7.5));
+        System.out.println("12 nin küpü : "+ Math.pow(12,3));
+    }
+}
