@@ -1,0 +1,22 @@
+package learningfile;
+
+import java.util.Scanner;
+
+public class ortalama {
+    public static void main(String[] args) {
+
+        Scanner tara = new Scanner(System.in);
+
+        System.out.println("Birinci sayiyi girin");
+        int birincisayi = tara.nextInt();
+
+        System.out.println("Ikıncı sayiyi girin");
+        int ikincisayi = tara.nextInt();
+
+        System.out.println("Ucuncu sayiyi girin");
+        int ucuncusayi = tara.nextInt();
+
+        double ortama = (double) (birincisayi + ikincisayi + ucuncusayi) / 3.0;
+        System.out.println("Girdiginiz sayinin ortalamasi :"+ ortama);
+    }
+}
