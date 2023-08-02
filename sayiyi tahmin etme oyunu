@@ -1,0 +1,26 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class deneme {
+    public static void main(String[] args) {
+        Random rand = new Random();
+        Scanner myScanner = new Scanner(System.in);
+        int number=1;
+        int winnerNumber;
+        while(number >0) {
+            winnerNumber = rand.nextInt(90) + 10; //this line will creat a number in range 10-99
+            System.out.println(winnerNumber);
+            System.out.println("(Cikis yapmak icin 0 giriniz)");
+            System.out.println("2 basamakli sayi Tahmininizi giriniz:");
+            number = myScanner.nextInt();
+            if (number == winnerNumber) {
+                System.out.println("10.000 Tl kazandiniz");
+            } else if (number / 10 == winnerNumber % 10 && winnerNumber / 10 == number % 10) {
+                System.out.println("5.000 TL kazandiniz");
+            } else if (number / 10 == winnerNumber % 10 || winnerNumber / 10 == number % 10
+                    || number / 10 == winnerNumber / 10 || winnerNumber % 10 == number % 10) {
+                System.out.println("1.000 TL kazandiniz");
+            }
+        }
+    }
+}
