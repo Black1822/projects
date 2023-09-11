@@ -10,7 +10,7 @@ public class ortalama {
         System.out.println("Birinci sayiyi girin");
         int birincisayi = tara.nextInt();
 
-        System.out.println("Ikıncı sayiyi girin");
+        System.out.println("Ikinci sayiyi girin");
         int ikincisayi = tara.nextInt();
 
         System.out.println("Ucuncu sayiyi girin");
