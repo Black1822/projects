@@ -1,0 +1,140 @@
+package name;
+import java.util.Scanner;
+public class vs {
+	public static void main(String[] args) {
+		int first;
+		int second = 0;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Choose your first character");
+				System.out.println ("Character list:");
+				System.out.println ("-toji");
+				System.out.println ("-sukuna");
+				System.out.println ("-gojo");
+				System.out.println ("-megumi");
+				System.out.println ("-yuji");
+				System.out.println ("-todo");
+				System.out.println ("-nanami");
+				System.out.println ("-jogo");
+				System.out.println ("-geto");
+				System.out.println ("-yuta");
+				System.out.println ("-nobara");
+		String Character1 = scan.nextLine();
+		if (Character1.equalsIgnoreCase("toji")){
+			System.out.println("you choosed First Character to "+ Character1);
+			first= 100000;
+		}
+		else if (Character1.equalsIgnoreCase("sukuna")) {
+				System.out.println("you choosed First Character to "+Character1 );
+				first= 1000;
+			}
+			else if (Character1.equalsIgnoreCase("gojo")) {
+				System.out.println("you choosed First Character to "+Character1 );
+				first= 950;
+			}
+			else if (Character1.equalsIgnoreCase("megumi")) {
+				System.out.println("you choosed First Character to "+Character1 );
+				first= 350;
+			}
+			else if (Character1.equalsIgnoreCase("yuji")) {
+				System.out.println("you choosed First Character to "+Character1 );
+				first= 450;
+			}
+			else if (Character1.equalsIgnoreCase("todo")) {
+				System.out.println("you choosed First Character to "+Character1 );
+				first= 375;
+			}
+			else if (Character1.equalsIgnoreCase("nanami")) {
+				System.out.println("you choosed First Character to "+Character1 );
+				first= 500;
+			}
+			else if (Character1.equalsIgnoreCase("jogo")) {
+				System.out.println("you choosed First Character to "+Character1 );
+				first= 600;
+			}
+			else if (Character1.equalsIgnoreCase("geto")) {
+				System.out.println("you choosed First Character to "+Character1 );
+				first= 800;
+			}
+			else if (Character1.equalsIgnoreCase("yuta")) {
+				System.out.println("you choosed First Character to "+Character1 );
+				first= 900;
+			}
+			else if (Character1.equalsIgnoreCase("nobara")) {
+				System.out.println("you choosed First Character to "+Character1 );
+				first= 300;
+			}
+			else {
+				System.out.println("please choose aviable character ");
+				second=0;
+				first= 0;
+				System.exit(0);
+			}
+		System.out.println("Now choose your second character");
+		String Character2 = scan.nextLine();
+		if (Character2.equalsIgnoreCase("toji")) {
+			System.out.println("you choosed Second Character to "+Character2 );
+			second= 100000;
+		}
+		else if (Character2.equalsIgnoreCase("sukuna")) {
+				System.out.println("you choosed Second Character to "+Character2 );
+				second=1000;
+			}
+			else if (Character2.equalsIgnoreCase("gojo")) {
+				System.out.println("you choosed Second Character to "+Character2 );
+				second=950;
+			}
+			else if (Character2.equalsIgnoreCase("megumi")) {
+				System.out.println("you choosed Second Character to "+Character2 );
+				second=330;
+			}
+			else if (Character2.equalsIgnoreCase("yuji")) {
+				System.out.println("you choosed Second Character to "+Character2 );
+				second=450;
+			}
+			else if (Character2.equalsIgnoreCase("todo")) {
+				System.out.println("you choosed Second Character to "+Character2 );
+				second=375;
+			}
+			else if (Character2.equalsIgnoreCase("nanami")) {
+				System.out.println("you choosed second Character to "+Character2 );
+				second= 500;
+			}
+			else if (Character2.equalsIgnoreCase("jogo")) {
+				System.out.println("you choosed Second Character to "+Character2 );
+				second= 600;
+			}
+			else if (Character2.equalsIgnoreCase("geto")) {
+				System.out.println("you choosed Second Character to "+Character2 );
+				second= 800;
+			}
+			else if (Character2.equalsIgnoreCase("yuta")) {
+				System.out.println("you choosed Second Character to "+Character2 );
+				second= 900;
+			}
+			else if (Character2.equalsIgnoreCase("nobara")) {
+				System.out.println("you choosed Second Character to "+Character2 );
+				second= 300;
+			}
+			else {
+				System.out.println("Please choose aviable character ");
+				System.exit(0);
+			}
+		System.out.println(Character1 +(" vs ")+ Character2);
+		System.out.println("Fight has been start...(it can take a while)");
+		try { Thread.sleep(6L * 600L); } 
+		catch (InterruptedException e) {     
+			e.printStackTrace();
+			}
+		if(second > first) {
+			System.out.println(Character2 + (" won!!!!!"));
+			System.out.println((Character2)+("'s Score: ")+(second - first));
+		}
+		if(first > second) {
+			System.out.println(Character1 + (" won!!!!!"));
+			System.out.println((Character1)+("'s Score : ")+(first - second));		}
+		if(first == second) {
+			System.out.println("Draw");
+		}
+	}
+}
+//By Black182
