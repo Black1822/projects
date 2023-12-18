@@ -1,0 +1,96 @@
+package name;
+
+import java.util.Scanner;
+
+public class rockpaperscissors {
+	public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+	System.out.println("press Enter when you are ready");
+	scan.nextLine();
+	try { Thread.sleep(3L * 300L); } 
+	catch (InterruptedException e) {     
+		e.printStackTrace();
+		}
+	System.out.println("Rock ?");
+	try { Thread.sleep(3L * 300L); } 
+	catch (InterruptedException e) {     
+		e.printStackTrace();
+		}
+	System.out.println("Paper ?");
+	try { Thread.sleep(3L * 300L); } 
+	catch (InterruptedException e) {     
+		e.printStackTrace();
+		}
+	System.out.println("Scissors ?");
+	try { Thread.sleep(3L * 300L); } 
+	catch (InterruptedException e) {     
+		e.printStackTrace();
+		}
+try { Thread.sleep(3L * 300L); } 
+catch (InterruptedException e) {     
+	e.printStackTrace();
+	}
+String rps = scan.nextLine();
+if (rps.equalsIgnoreCase("rock")){
+	System.out.println("you select "+ rps);
+	int player =1;
+	int number = (int)(Math.random() * 4) + 0;
+	String prps;
+	if(number == 1) {
+		System.out.println(prps= "computer select rock");	
+		System.out.println("Draw");
+		System.exit(0);
+		}else if(number == 2){		
+		System.out.println(prps= "computer select paper");
+		System.out.println("Copmuter win");
+		System.exit(0);
+		}else if(number == 3){
+		System.out.println(prps= "computer select scissors");
+		System.out.println("You win");
+		System.exit(0);
+			}
+}else if(rps.equalsIgnoreCase("paper")){
+	System.out.println("you select "+ rps);
+	int player =2;
+	int number = (int)(Math.random() * 4) + 0;
+	String prps;
+	if(number == 1) {
+		System.out.println(prps= "computer select rock");
+		System.out.println("You win");
+		System.exit(0);
+		}else if(number == 2){		
+		System.out.println(prps= "computer select paper");
+		System.out.println("Draw");
+		System.exit(0);
+		}else if(number == 3){
+		System.out.println(prps= "computer select scissors");
+		System.out.println("Copmuter win");
+		System.exit(0);
+			}
+}else if(rps.equalsIgnoreCase("scissors")) {
+	System.out.println("you select "+ rps);
+	int player =3;
+	int number = (int)(Math.random() * 4) + 0;
+	String prps;
+	if(number == 1) {
+		System.out.println(prps= "computer select rock");
+		System.out.println("Copmuter win");
+		System.exit(0);
+		}else if(number == 2){		
+		System.out.println(prps= "computer select paper");
+		System.out.println("You win");
+		System.exit(0);
+		}else if(number == 3){
+		System.out.println(prps= "computer select scissors");
+		System.out.println("Draw");
+		System.exit(0);
+			}
+}else {
+	System.out.println("please write -rock -paper or -scissors");
+	System.exit(0);
+}
+{
+
+		}
+	}
+}
