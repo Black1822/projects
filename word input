@@ -20,8 +20,14 @@ public class writingame {
 		catch (InterruptedException e) {     
 			e.printStackTrace();
 			}
-		String theword = null;
-		System.out.println("1");
+		{
+	}
+	System.out.println("1");
+	try { Thread.sleep(3L * 300L); } 
+	catch (InterruptedException e) {     
+		e.printStackTrace();
+		}
+	String theword = null;
 		System.out.println("");
 		System.out.println("");
 		System.out.println("");
