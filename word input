@@ -109,7 +109,7 @@ public class writingame {
 			System.out.println("System.error");
 		}
 		if (theword.equalsIgnoreCase(scan.nextLine())){
-			System.out.println("You guessed true: "+ theword);
+			System.out.println("You input true: "+ theword);
 		}else {
 			System.out.println("Wrong");
 			System.exit(0);
