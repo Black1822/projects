@@ -7,7 +7,7 @@ public class newww {
 		String Character1 = scan.nextLine();
 		String theword = null;
 		System.out.println("Goodluck, enjoy");
-		try { Thread.sleep(2L * 200L); } 
+		try { Thread.sleep(3L * 300L); } 
 		catch (InterruptedException e) {     
 			e.printStackTrace();
 			}
@@ -126,14 +126,16 @@ public class newww {
 		}else if(number == 35) {
 			System.out.println(theword= "9");
 		}else {
-			System.out.println("System.error");
+			System.out.println("f");
 		}
 		if (theword.equalsIgnoreCase(scan.nextLine())){
 			puan++;
 			System.out.println("You input true: "+ theword);
+				}else {
+					System.out.println("You input wrong ");
 				}
 		test ++;
 		}while(test <10);
-		System.out.println("your score: " +puan);
+		System.out.println("your score: " +puan+ ("/10"));
 	}
 }
