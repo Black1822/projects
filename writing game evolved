@@ -7,7 +7,7 @@ public class newww {
 		String Character1 = scan.nextLine();
 		String theword = null;
 		System.out.println("Goodluck, enjoy");
-		try { Thread.sleep(3L * 300L); } 
+		try { Thread.sleep(2L * 200L); } 
 		catch (InterruptedException e) {     
 			e.printStackTrace();
 			}
