@@ -131,8 +131,14 @@ public class newww {
 		if (theword.equalsIgnoreCase(scan.nextLine())){
 			puan++;
 			System.out.println("You input true: "+ theword);
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
 				}else {
 					System.out.println("You input wrong ");
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
 				}
 		test ++;
 		}while(test <10);
