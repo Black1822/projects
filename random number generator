@@ -1,5 +1,4 @@
 package learningfile;
-
 public class mathrandom {
     public static void main(String[] args) {
         int rastgeleSayi = (int) (Math.random() * 10000 + 1);
