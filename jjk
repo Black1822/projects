@@ -17,7 +17,9 @@ public class vs {
 				System.out.println ("-geto");
 				System.out.println ("-yuta");
 				System.out.println ("-nobara");
+				System.out.println("---------------------------------------------------------------------------------------------------------------------------------------");
 				System.out.println("Choose your first character");
+				System.out.println("---------------------------------------------------------------------------------------------------------------------------------------");
 		String Character1 = scan.nextLine();
 		if (Character1.equalsIgnoreCase("toji")){
 			System.out.println("you choosed First Character to "+ Character1);
@@ -76,12 +78,15 @@ public class vs {
 				first= 300;
 			}
 			else {
+				System.out.println("");
 				System.out.println("please choose aviable character ");
 				second=0;
 				first= 0;
 				System.exit(0);
 			}
+		System.out.println("---------------------------------------------------------------------------------------------------------------------------------------");
 		System.out.println("Now choose your second character");
+		System.out.println("---------------------------------------------------------------------------------------------------------------------------------------");
 		String Character2 = scan.nextLine();
 		if (Character2.equalsIgnoreCase("toji")) {
 			System.out.println("you choosed Second Character to "+Character2 );
@@ -131,19 +136,28 @@ public class vs {
 				System.out.println("Please choose aviable character ");
 				System.exit(0);
 			}
+		System.out.println("");
 		System.out.println(Character1 +(" vs ")+ Character2);
+		System.out.println("");
 		System.out.println("Fight has been start...(it can take a while)");
+		System.out.println("");
 		try { Thread.sleep(6L * 600L); } 
 		catch (InterruptedException e) {     
 			e.printStackTrace();
 			}
 		int random1 = (int)(Math.random() * 4) + 0;
 		if (random1==1){
+			System.out.println("");
 			System.out.println(Character1+ " scratched from his eye");
-	}else if(random1==2) {
+			System.out.println("");
+	    }else if(random1==2) {
+	    	System.out.println("");
 			System.out.println(Character1+ " got stabbed");
+			System.out.println("");
 		}else if(random1==3) {
+			System.out.println("");
 			System.out.println(Character1+ " punched "+Character2+" at his face!");
+			System.out.println("");
 		}
 		{
 	try { Thread.sleep(6L * 600L); } 
@@ -153,11 +167,17 @@ public class vs {
 		}
 		int random2 = (int)(Math.random() * 4) + 0;
 		if (random2==1){
-			System.out.println(Character2+ " scratched from his eye");}
-			else if(random2==2) {
+			System.out.println("");
+			System.out.println(Character2+ " scratched from his eye");
+			System.out.println("");
+	    }else if(random2==2) {
+	    	System.out.println("");
 			System.out.println(Character2+ " got stabbed");
-		}else if(random2==3){
+			System.out.println("");
+		}else if(random2==3) {
+			System.out.println("");
 			System.out.println(Character2+ " punched "+Character1+" at his face!");
+			System.out.println("");
 		}
 			
 			{
