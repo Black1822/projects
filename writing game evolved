@@ -126,7 +126,7 @@ public class newww {
 		}else if(number == 35) {
 			System.out.println(theword= "9");
 		}else {
-			System.out.println("f");
+			System.out.println(theword= "f");
 		}
 		if (theword.equalsIgnoreCase(scan.nextLine())){
 			puan++;
