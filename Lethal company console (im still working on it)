@@ -1,0 +1,1262 @@
+package name;
+import java.util.Scanner;
+public class best {
+	public static void main (String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int money=900;
+		int cost=0;
+		String day = null;
+		System.out.println("Welcome to the FORTUNE-9 OS");
+		System.out.println("          Courtesy of the company");
+		System.out.println("Happy "+ day+".");
+		System.out.println("");
+		System.out.println("Type (HELP) for a list of commands");
+		if (scan.nextLine().equalsIgnoreCase("help")){
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+		System.out.println(money+"$");
+		System.out.println(">MOONS");
+		System.out.println("To see list of moons the autopilot can route to.");
+		System.out.println("");
+		System.out.println(">STORE");
+		System.out.println("To see the company store's selection to useful items.");
+		System.out.println("");
+		System.out.println(">BESTIARY");
+		System.out.println("To see the list of wild life on record.");
+		System.out.println("");
+		System.out.println(">STORAGE");
+		System.out.println("To access objects placed into storage.");
+		System.out.println("");
+		System.out.println(">OTHER");
+		System.out.println("To see the list of other commands");
+		
+		String help= scan.nextLine();
+		if (help.equalsIgnoreCase("moons")){
+			System.out.println(money+ "$");
+			System.out.println("");
+			System.out.println("Welcome to the exomoons catalogue.");
+			System.out.println("To route  to autopilot to moon, use the word ROUTE.");
+			System.out.println("To learn how to moon, use the word INFO.");
+			System.out.println("");
+			System.out.println("------------------------------------");
+			System.out.println("");
+			System.out.println("* Experimentation");
+			System.out.println("* Assurance");
+			System.out.println("* Vow");
+			System.out.println("");
+			System.out.println("* Offense");
+			System.out.println("* March");
+			System.out.println("");
+			System.out.println("* Rend");
+			System.out.println("* Dine");
+			System.out.println("* Titan");
+			String moon= scan.nextLine();
+			if (moon.equalsIgnoreCase("Experimentation")){
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println("The Cost to route to 41-Experimentation	is 0$. It is ");
+				System.out.println("currently mild weather on this moon.");
+				System.out.println("");
+				System.out.println("Please Confirm or Deny.");
+				if (scan.nextLine().equalsIgnoreCase("Confirm")){
+					System.out.println("The autopilot ship is already orbiting this moon!");
+				}
+			}else if (moon.equalsIgnoreCase("Assurance")){
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println("The Cost to route to 220-Assurance is 0$. It is ");
+				System.out.println("currently mild weather on this moon.");
+				System.out.println("");
+				System.out.println("Please Confirm or Deny.");
+				if (scan.nextLine().equalsIgnoreCase("Confirm")){
+					System.out.println("The autopilot ship is already orbiting this moon!");
+				}
+			}else if (moon.equalsIgnoreCase("Vow")){
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println("The Cost to route to 56-Vow is 0$. It is ");
+				System.out.println("currently mild weather on this moon.");
+				System.out.println("");
+				System.out.println("Please Confirm or Deny.");
+				if (scan.nextLine().equalsIgnoreCase("Confirm")){
+					System.out.println("The autopilot ship is already orbiting this moon!");
+				}
+			}else if (moon.equalsIgnoreCase("Offense")){
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println("The Cost to route to 21-Offense is 0$. It is ");
+				System.out.println("currently mild weather on this moon.");
+				System.out.println("");
+				System.out.println("Please Confirm or Deny.");
+				if (scan.nextLine().equalsIgnoreCase("Confirm")){
+					System.out.println("The autopilot ship is already orbiting this moon!");
+				}
+			}else if (moon.equalsIgnoreCase("March")){
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println("The Cost to route to 61-March is 0$. It is ");
+				System.out.println("currently mild weather on this moon.");
+				System.out.println("");
+				System.out.println("Please Confirm or Deny.");
+				if (scan.nextLine().equalsIgnoreCase("Confirm")){
+					System.out.println("The autopilot ship is already orbiting this moon!");
+				}
+			}else if (moon.equalsIgnoreCase("Rend")){
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println("The Cost to route to 85-Rend is 550$. It is ");
+				System.out.println("currently mild weather on this moon.");
+				System.out.println("");
+				System.out.println("Please Confirm or Deny.");
+				if (scan.nextLine().equalsIgnoreCase("Confirm")){
+					if (money<550){
+						System.out.println("You dont have enough money to this moon");
+						}else if(money>550){
+					System.out.println("The autopilot ship is already orbiting this moon!");
+				}else {
+					System.out.println("The autopilot ship is already orbiting this moon!");
+				}
+				}
+			}else if (moon.equalsIgnoreCase("Dine")){
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println("The Cost to route to 7-Dine is 600$. It is ");
+				System.out.println("currently mild weather on this moon.");
+				System.out.println("");
+				System.out.println("Please Confirm or Deny.");
+				if (scan.nextLine().equalsIgnoreCase("Confirm")){
+					if (money<600){
+						System.out.println("You dont have enough money to this moon");
+						}else if(money>600){
+					System.out.println("The autopilot ship is already orbiting this moon!");
+				}else {
+					System.out.println("The autopilot ship is already orbiting this moon!");
+				}
+				}
+			}else if (moon.equalsIgnoreCase("titan")){
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println("The Cost to route to 8-Titan is 700$. It is ");
+				System.out.println("currently mild weather on this moon.");
+				System.out.println("");
+				System.out.println("Please Confirm or Deny.");
+				if (scan.nextLine().equalsIgnoreCase("Confirm")){
+					if (money<700){
+					System.out.println("You dont have enough money to this moon");
+					}else if(money>700) {
+						System.out.println("The autopilot ship is already orbiting this moon!");
+					}
+				}else {
+					System.out.println("The autopilot ship is already orbiting this moon!");
+				}
+			}
+		}else if (help.equalsIgnoreCase("store")){
+				System.out.println(money+ "$");
+				System.out.println("");
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println(money+"$");
+				System.out.println();
+				System.out.println("Welcome to the Company store.");
+				System.out.println("Use words to BUY and INFO on any item.");
+				System.out.println("Order tools in bulk by typing a number.");
+				System.out.println("----------------------------");
+				System.out.println("");
+				System.out.println("* Walkie-Talkie // Price: 12$");
+				System.out.println("* Flashlight // Price 15$");
+				System.out.println("* Shovel // Price 30$");
+				System.out.println("* Pro-Flashlight // 25$");
+				System.out.println("* Stun grenade // 40");
+				System.out.println("* Boombox // 60 $");
+				System.out.println("* TZP-Inhalant // Price 120$");
+				System.out.println("* Zap gun // Price 400$");
+				System.out.println("* Jetpack // Price 700$");
+				System.out.println("* Extension ladder // Price 60$");
+				System.out.println("* Radar-booster // Price 50$");
+				System.out.println("");
+				System.out.println("SHIP UPGRADES:");
+				System.out.println("* Loud horn // Price 150$");
+				System.out.println("* Teleporter // Price 375");
+				System.out.println("* Inverse Teleporter // Price 415$");
+				System.out.println("");
+				System.out.println("The selection of ship decor rotates per-quota. Be");
+				System.out.println("sure to check back next week:");
+				System.out.println("--------------------------------");
+				System.out.println("");
+				System.out.println("Record player // 120$");
+				System.out.println("Television // 130$");
+				System.out.println("Hazard suit // 90$");
+			    System.out.println("Table // 70");
+			    String store= scan.nextLine();
+			    if (store.equalsIgnoreCase("walkie-talkie")){
+			    	System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+			    	System.out.println("The cost of Walkie-Talkie is 12$");
+			    	System.out.println("Please Confirm or Deny");
+			    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+			    		if (money<12){
+			    			System.out.println("You cant afford this item");
+			    		}
+			    		}else if(money>12) 
+			    	System.out.println("You complitely bought the Walkie-Talkie the item");
+					System.out.println("will arrive with rocket.");
+			    		
+			    }else if (store.equalsIgnoreCase("Flashlight")){
+			    	System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+			    	System.out.println("The cost of Flashlight is 15$");
+			    	System.out.println("Please Confirm or Deny");
+			    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+			    		if (money<15){
+			    			System.out.println("You cant afford this item");
+			    		}else if(money>15)
+			    	System.out.println("You complitely bought the Flashlight the item");
+					System.out.println("will arrive with rocket.");
+			    	}
+			    }else if (store.equalsIgnoreCase("Shovel")){
+			    	System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+			    	System.out.println("The cost of Shovel is 30$");
+			    	System.out.println("Please Confirm or Deny");
+			    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+			    		if (money<30){
+			    			System.out.println("You cant afford this item");
+			    		}else if(money>30)
+			    	System.out.println("You complitely bought the Shovel the item");
+					System.out.println("will arrive with rocket.");
+			    	}
+			    }else if (store.equalsIgnoreCase("Pro-Flashlight")){
+			    	System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+		    		System.out.println("");
+				    	System.out.println("The cost of Pro-Flashlight is 25$");
+				    	System.out.println("Please Confirm or Deny");
+				    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+				    		if (money<25){
+				    			System.out.println("You cant afford this item");
+				    		}else if(money>25)
+				    	System.out.println("You complitely bought the Pro-Flashlight the item");
+						System.out.println("will arrive with rocket.");
+				    	}
+			    	}else if (store.equalsIgnoreCase("Stun Grenade")){
+			    		System.out.println("");
+			    		System.out.println("");
+			    		System.out.println("");
+			    		System.out.println("");
+			    		System.out.println("");
+			    		System.out.println("");
+			    		System.out.println("");
+			    		System.out.println("");
+			    		System.out.println("");
+			    		System.out.println("");
+			    		System.out.println("");
+			    		System.out.println("");
+			    		System.out.println("");
+			    		System.out.println("");
+			    		System.out.println("");
+			    		System.out.println("");
+					    	System.out.println("The cost of Stun Grenade is 40$");
+					    	System.out.println("Please Confirm or Deny");
+					    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+					    		if (money<45){
+					    			System.out.println("You cant afford this item");
+					    		}else if(money>45)
+					    	System.out.println("You complitely bought the Stun Grenade the item");
+							System.out.println("will arrive with rocket.");
+					    	}
+					    	
+				    	}else if (store.equalsIgnoreCase("Boombox")){
+				    		System.out.println("");
+				    		System.out.println("");
+				    		System.out.println("");
+				    		System.out.println("");
+				    		System.out.println("");
+				    		System.out.println("");
+				    		System.out.println("");
+				    		System.out.println("");
+				    		System.out.println("");
+				    		System.out.println("");
+				    		System.out.println("");
+				    		System.out.println("");
+				    		System.out.println("");
+				    		System.out.println("");
+				    		System.out.println("");
+				    		System.out.println("");
+						    	System.out.println("The cost of Boombox is 60$");
+						    	System.out.println("Please Confirm or Deny");
+						    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+						    		if (money<60){
+						    			System.out.println("You cant afford this item");
+						    		}else if(money>60)
+						    	System.out.println("You complitely bought the Boombox the item");
+								System.out.println("will arrive with rocket.");
+						    	}
+						    	
+					    	}else if (store.equalsIgnoreCase("TZP-Inhalant")){
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+						    	System.out.println("The cost of TZP-Inhalant is 120$");
+						    	System.out.println("Please Confirm or Deny");
+						    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+						    		if (money<120){
+						    			System.out.println("You cant afford this item");
+						    		}else if(money>120)
+						    	System.out.println("You complitely bought the TZP-Inhalant the item");
+								System.out.println("will arrive with rocket.");
+						    	}
+						    	
+					    	}else if (store.equalsIgnoreCase("Zap gun")){
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+						    	System.out.println("The cost of Zap gun is 400$");
+						    	System.out.println("Please Confirm or Deny");
+						    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+						    		if (money<400){
+						    			System.out.println("You cant afford this item");
+						    		}else if(money>400)
+						    	System.out.println("You complitely bought the Zap gun the item");
+								System.out.println("will arrive with rocket.");
+						    	}
+						    	
+					    	}else if (store.equalsIgnoreCase("Jetpack")){
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+					    		System.out.println("");
+						    	System.out.println("The cost of Jetpack is 700$");
+						    	System.out.println("Please Confirm or Deny");
+						    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+						    		if (money<700){
+						    			System.out.println("You cant afford this item");
+						    		}else if(money>700)
+						    	System.out.println("You complitely bought the Jetpack the item");
+								System.out.println("will arrive with rocket.");
+						    	}
+						    	
+					    	}else if (store.equalsIgnoreCase("Extension ladder")){
+						    	System.out.println("The cost of Extension ladder is 60$");
+						    	System.out.println("Please Confirm or Deny");
+						    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+						    		if (money<60){
+						    			System.out.println("You cant afford this item");
+						    		}else if(money>60)
+						    	System.out.println("You complitely bought the Extension ladder the item");
+								System.out.println("will arrive with rocket.");
+						    	}
+						    	
+						    	}else if (store.equalsIgnoreCase("Radar-booster")){
+							    	System.out.println("The cost of Radar-booster is 50$");
+							    	System.out.println("Please Confirm or Deny");
+							    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+							    		if (money<50){
+							    			System.out.println("You cant afford this item");
+							    		}else if(money>50)
+							    	System.out.println("You complitely bought the Radar-booster the item");
+									System.out.println("will arrive with rocket.");
+							    	}
+							    	
+							    	}else if (store.equalsIgnoreCase("Loud horn")){
+								    	System.out.println("The cost of Loud horn is 150$");
+								    	System.out.println("Please Confirm or Deny");
+								    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+								    		if (money<150){
+								    			System.out.println("You cant afford this item");
+								    		}else if(money>150)
+								    	System.out.println("You complitely bought the Loud horn the item");
+										System.out.println("will arrive with rocket.");
+								    	}
+								    	
+								    	}else if (store.equalsIgnoreCase("Teleporter")){
+									    	System.out.println("The cost of Teleporter is 375$");
+									    	System.out.println("Please Confirm or Deny");
+									    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+									    		if (money<375){
+									    			System.out.println("You cant afford this item");
+									    		}else if(money>375)
+									    	System.out.println("You complitely bought the Teleporter the item");
+											System.out.println("will arrive with rocket.");
+									    	}
+									    	
+									    	}else if (store.equalsIgnoreCase("Inverse Teleporter")){
+										    	System.out.println("The cost of Inverse Teleporter is 415$");
+										    	System.out.println("Please Confirm or Deny");
+										    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+										    		if (money<415){
+										    			System.out.println("You cant afford this item");
+										    		}else if(money>415)
+										    	System.out.println("You complitely bought the Inverse Teleporter the item");
+												System.out.println("will arrive with rocket.");
+										    	}
+										    	
+										    	}else if (store.equalsIgnoreCase("Record player")){
+											    	System.out.println("The cost of Record Player is 120$");
+											    	System.out.println("Please Confirm or Deny");
+											    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+											    		if (money<120){
+											    			System.out.println("You cant afford this item");
+											    		}else if(money>120)
+											    	System.out.println("You complitely bought the Record Player the item");
+													System.out.println("will arrive with rocket.");
+											    	}
+											    	
+											    	}else if (store.equalsIgnoreCase("Television")){
+												    	System.out.println("The cost of Television is 130$");
+												    	System.out.println("Please Confirm or Deny");
+												    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+												    		if (money<130){
+												    			System.out.println("You cant afford this item");
+												    		}else if(money>130)
+												    	System.out.println("You complitely bought the Television the item");
+														System.out.println("will arrive with rocket.");
+												    	}
+												    	
+												    	}else if (store.equalsIgnoreCase("Hazard Suit")){
+													    	System.out.println("The cost of Hazard Suit is 90$");
+													    	System.out.println("Please Confirm or Deny");
+													    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+													    		if (money<90){
+													    			System.out.println("You cant afford this item");
+													    		}else if(money>90)
+													    	System.out.println("You complitely bought the Hazard Suit the item");
+															System.out.println("will arrive with rocket.");
+													    	}
+													    	
+													    	}else if (store.equalsIgnoreCase("Table")){
+														    	System.out.println("The cost of Table is 70$");
+														    	System.out.println("Please Confirm or Deny");
+														    	if (scan.nextLine().equalsIgnoreCase("Confirm")){
+														    		if (money<70){
+														    			System.out.println("You cant afford this item");
+														    		}else if(money>70)
+														    	System.out.println("You complitely bought the Table the item");
+																System.out.println("will arrive with rocket.");
+														    	}
+													    	}
+		}else if (help.equalsIgnoreCase("bestiary")){
+			System.out.println("* Roaming Locusts");
+			System.out.println("* Manticoils");
+			System.out.println("* Circuit Bees");
+			System.out.println("* Hoarding Bugs");
+			System.out.println("* Snare Fleas");
+			System.out.println("* Spore Lizards");
+			System.out.println("* Hygroderes");
+			System.out.println("* Bunker Spiders");
+			System.out.println("* Brackens / Flower Man");
+			System.out.println("* Thumpers");
+			System.out.println("* Coil-Heads");
+			System.out.println("* Jester");
+			System.out.println("* Red Girl / Ghost Girl");
+			System.out.println("* Forest Keeper");
+			System.out.println("* Eyeless Dogs");
+			System.out.println("* Earth Leviathan");
+			System.out.println("* Babboon Hawk");
+		    String bestiary= scan.nextLine();
+		    if(bestiary.equalsIgnoreCase("Roaming Locusts")){
+		    	System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+				System.out.println();
+		    	System.out.println("Bestiary Entry for Roaming Locusts:");
+		    	System.out.println("");
+				System.out.println("“Known as roaming locusts, this is a species of grasshopper. Unlike some species which are");
+				System.out.println("more prone to jump or fly, roaming locusts are almost never grounded and stay close together");
+				System.out.println("even when in smaller numbers. They will quickly disperse when a predator disrupts them but");
+				System.out.println("are highly attracted to light.”");
+		}else if(bestiary.equalsIgnoreCase("Manticoils")){
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("Bestiary Entry for Manticoils:");
+			System.out.println("");
+			System.out.println("You’re most likely to encounter Manticoils outside, where they’ll be flying in the air, usually in");
+			System.out.println("small groups of three or more. You’ll see them on the early moons you explore in the morning.");
+			System.out.println("These Lethal Company monsters pose no threat and will fly away if you approach them.");
+		}else if(bestiary.equalsIgnoreCase("Circuit Bees")){
+			System.out.println("Circuit Bees: ");
+			System.out.println("");
+			System.out.println("As you might expect, the Circuit Beehive is worth quite a few credits. Usually, around 100.");
+			System.out.println("Two or more players can steal a hive by having one player approach the hive. Once the bees");
+			System.out.println("swarm that player, a second player will then need to go in and grab the unprotected Beehive.");
+		}else if(bestiary.equalsIgnoreCase("Hoarding Bugs")){
+			System.out.println("Hoarding Bugs:");
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("");
+			System.out.println("Hoarding bugs do precisely as their name implies. They hoard. They’ll run around the map,");
+			System.out.println("gathering items in direct competition with you, and take them back to their nest. While");
+			System.out.println("they’re gathering, they’re harmless and non-hostile. However, if you attempt to take the items");
+			System.out.println("from their nest, which you can find by chance or by following them, they will become hostile.");
+			System.out.println("They’ll leap at you to do damage, but the damage is not substantial.");
+			System.out.println("");
+			System.out.println("While Hoarding Bugs are easy to dispatch with a shovel or stop sign, be wary of the fact that");
+			System.out.println("they usually come in groups of one to three.");
+		}else if(bestiary.equalsIgnoreCase("Snare Fleas")){
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("Snare Fleas:");
+			System.out.println("");
+			System.out.println("You’re very likely to encounter Snare Fleas while exploring indoor maps. For that reason, if");
+			System.out.println("you know you’re going inside, it’s a good idea to have several members of your team hold a");
+			System.out.println("flashlight which you’ll need to keep trained on the ceiling. That’s where they lurk.");
+			System.out.println("");
+			System.out.println("If a player walks beneath a Snare Flea, it will drop down and chase the player. If it catches the");
+			System.out.println("player, it will leap onto their head, where it will blind them, muffle their voice, and slowly start");
+			System.out.println("to drain their health. This is lethal unless you have a crewmate around.");
+			System.out.println("If you do have a teammate nearby, they can knock the Snare Flea off the affected player’s");
+			System.out.println("head with a shovel or stop sign. One hit should do to cause the Snare Flea to unlatch itself.");
+			System.out.println("You’ll need to kill the Snare Flea or it will return to the ceiling where it will try to ambush you");
+			System.out.println("again. Alternatively, you can walk outside with a Snare Flea on your head and the Snare Flea");
+			System.out.println("will immediately unlatch.");
+		}else if(bestiary.equalsIgnoreCase("Spore Lizards")){
+			System.out.println("Spore Lizards:");
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("");
+			System.out.println("Spore Lizards are largely harmless creatures that are more silly than dangerous. They’re");
+			System.out.println("adorable, really, and non-hostile. If you approach it, it will run away. But if it’s trapped with");
+			System.out.println("you indoors, it may bite you for a small amount of damage or release a puff of pink spores.");
+			System.out.println("These pink spores can hinder visibility, but they’re not harmful.");
+		}else if(bestiary.equalsIgnoreCase("Hygroderes")){
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("Hygroderes:");
+			System.out.println("");
+			System.out.println("While the Hygrodere might be immune to all types of damage, it can only affect you if you");
+			System.out.println("touch it. Thus, a good way to counter the Hygrodere is to simply jump over it. It’s");
+			System.out.println("recommended that you not hit them, as this turns the blue haze hostile, causing it to move");
+			System.out.println("faster.");
+		}else if(bestiary.equalsIgnoreCase("Bunker Spider")){
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("Bunker Spiders");
+			System.out.println("");
+			System.out.println("Bunker Spiders are one of the most terrifying things in Lethal Company and are commonly");
+			System.out.println("found indoors. Fortunately, they’re easy to counter. Be sure to have a shovel or stop sign and a");
+			System.out.println("railing you can jump on nearby. Then, trigger the Bunker Spider and get it to chase you back to");
+			System.out.println("your railing. Jump on the railing, then beat the spider to death with your shovel.");
+		}else if(bestiary.equalsIgnoreCase("Brackens")){
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("Brackens / Flower Man:");
+			System.out.println("");
+			System.out.println("Bracken, otherwise known as Flower Man, is an extremely dangerous creature that’s very");
+			System.out.println("hard to kill and seems to appear on all dangerous moons. They’re immediately identifiable by");
+			System.out.println("their tendency to stare out at you from the dark with a pair of white eyes");
+			System.out.println("");
+			System.out.println("If you see a Bracken in a more lighted area, you’ll see that it’s humanoid, red, and with a series");
+			System.out.println("of leafs running down the length of its spine. Bracken prefer to silently stalk players and, if");
+			System.out.println("not stopped, will snap your neck while you’re not looking.");
+		}else if(bestiary.equalsIgnoreCase("Flower Man")){
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("Brackens / Flower Man:");
+			System.out.println("");
+			System.out.println("Bracken, otherwise known as Flower Man, is an extremely dangerous creature that’s very");
+			System.out.println("hard to kill and seems to appear on all dangerous moons. They’re immediately identifiable by");
+			System.out.println("their tendency to stare out at you from the dark with a pair of white eyes");
+			System.out.println("");
+			System.out.println("If you see a Bracken in a more lighted area, you’ll see that it’s humanoid, red, and with a series");
+			System.out.println("of leafs running down the length of its spine. Bracken prefer to silently stalk players and, if");
+			System.out.println("not stopped, will snap your neck while you’re not looking.");
+		}else if(bestiary.equalsIgnoreCase("Thumpers")){
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("Thumpers:");
+			System.out.println("");
+			System.out.println("Thumpers are enemies that you should do your best to avoid as you gather resources. The");
+			System.out.println("best way to do this is to be aware of the dragging and stomping noise that accompanies");
+			System.out.println("Thumpers as they move through complexes. If you stumble across a Thumper, you’ll know");
+			System.out.println("you’ve gotten its attention because it will roar. Once it roars, it will begin a slow crawl");
+			System.out.println("towards you, which will quickly accelerate into a tackle.");
+			System.out.println("");
+			System.out.println("You have between the roar and the slow crawl to quickly turn down another corridor where it");
+			System.out.println("doesn’t have a direct line of sight. From there, you should do your best to continue to make");
+			System.out.println("turns to ensure that the Thumper loses track of you completely.");
+		}else if(bestiary.equalsIgnoreCase("Coil Heads")){
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("Coil-Heads:");
+			System.out.println("");
+			System.out.println("Coil-Heads are a straightforward enemy on paper. By staring at them, they’ll stay stationary,");
+			System.out.println("at least mostly. Sometimes, they’ll dash forward a few feet towards you. For this reason, it’s");
+			System.out.println("always a good idea to keep a few feet between you and it. Coil-Heads are at their most");
+			System.out.println("annoying when dealing with multiple enemies or when they’re blocking an area.");
+			System.out.println("");
+			System.out.println("If you’re fighting multiple enemies, have a teammate stare at Coil-Head as their primary job.");
+			System.out.println("To get past a Coil-Head, you can edge past them while staring at them. Just don’t touch them.");
+			System.out.println("If they’re blocking an area you need to get through, you can choose to back away and then");
+			System.out.println("look away in order to get them to chase you. You can do this until you’re in an open area and");
+			System.out.println("moving around the Coil-Head is easier.");
+			System.out.println("");
+			System.out.println("Doors are also an effective deterrence to Coil-Heads.");
+		}else if(bestiary.equalsIgnoreCase("Jester")){
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("Jester:");
+			System.out.println("");
+			System.out.println("So, as you might have gathered from Sigurd’s notes, the Jester is a difficult enemy. It can only");
+			System.out.println("be found on hard moons or very rarely on other moons. It’s essentially a walking Jack in the");
+			System.out.println("box.");
+			System.out.println("");
+			System.out.println("Jesters have three states. The first state is its passive state, where it’s waiting to encounter a");
+			System.out.println("player. It will wander around the map during this time.");
+			System.out.println("");
+			System.out.println("Once a player is found, the Jester will begin following the player. Eventually, it will enter its");
+			System.out.println("second state. The second state will have the Jester use its arm to turn its crank. It will then");
+			System.out.println("begin playing the song ‘Pop Goes the Weasel’ which will become progressively faster as it");
+			System.out.println("cranks.");
+			System.out.println("");
+			System.out.println("Its final stage occurs once the song ends. A monstrous head will pop out of the Jester’s box");
+			System.out.println("and it will begin chasing players through the complex. It does not need to see you to find you.");
+			System.out.println("The Jester will not stop pursuing players until all the players are dead or until they leave the");
+			System.out.println("building for approximately five seconds. Once players leave, the Jester will return to its boxed");
+			System.out.println("state.");
+			System.out.println("");
+			System.out.println("Once you realize a Jester is in the vicinity and following you, you should immediately begin");
+			System.out.println("planning your exit. That exit should be taken once it reaches its second phase.");
+			System.out.println("");
+		}else if(bestiary.equalsIgnoreCase("Red Girl")){
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("Red Girl/Ghost Girl:");
+			System.out.println("");
+			System.out.println("The Red Ghost Girl of Lethal Company is one, if not the only, monster that can’t be scanned");
+			System.out.println("and this doesn’t have an official bestiary profile. She can be found both indoors and");
+			System.out.println("outdoors and is a lethal threat.");
+			System.out.println("The Red Ghost Girl, when encountered, is only ever visible to one player at a time. The");
+			System.out.println("haunting will begin with the Ghost Girl appearing before the affected player, the player");
+			System.out.println("experiencing flickering lights, their hearing becoming muffled and distorted, and hearing");
+			System.out.println("giggling and heavy breathing.");
+			System.out.println("");
+			System.out.println("The Ghost Girl can’t be escaped and can appear both inside and outside of the complex. And,");
+			System.out.println("eventually, it will leave the Haunting state and begin its hunt state.");
+			System.out.println("During this phase, the Red Ghost Girl will begin skipping towards the chosen player. If she");
+			System.out.println("touches that player, that player will die. The affected player must then dedicate their");
+			System.out.println("resources and time to running from her. If they do die, the Red Ghost Girl will then begin");
+			System.out.println("haunting a new player. Thus, it’s a good idea to let the affected player keep her occupied while");
+			System.out.println("the rest of the team gathers resources.");
+		}else if(bestiary.equalsIgnoreCase("Ghost Girl")){
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("Red Girl/Ghost Girl:");
+			System.out.println("");
+			System.out.println("The Red Ghost Girl of Lethal Company is one, if not the only, monster that can’t be scanned");
+			System.out.println("and this doesn’t have an official bestiary profile. She can be found both indoors and");
+			System.out.println("outdoors and is a lethal threat.");
+			System.out.println("The Red Ghost Girl, when encountered, is only ever visible to one player at a time. The");
+			System.out.println("haunting will begin with the Ghost Girl appearing before the affected player, the player");
+			System.out.println("experiencing flickering lights, their hearing becoming muffled and distorted, and hearing");
+			System.out.println("giggling and heavy breathing.");
+			System.out.println("");
+			System.out.println("The Ghost Girl can’t be escaped and can appear both inside and outside of the complex. And,");
+			System.out.println("eventually, it will leave the Haunting state and begin its hunt state.");
+			System.out.println("During this phase, the Red Ghost Girl will begin skipping towards the chosen player. If she");
+			System.out.println("touches that player, that player will die. The affected player must then dedicate their");
+			System.out.println("resources and time to running from her. If they do die, the Red Ghost Girl will then begin");
+			System.out.println("haunting a new player. Thus, it’s a good idea to let the affected player keep her occupied while");
+			System.out.println("the rest of the team gathers resources.");
+		}else if(bestiary.equalsIgnoreCase("Forest Keeper")){
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("Forest Keeper:");
+			System.out.println("");
+			System.out.println("Forest Keepers, or Giants as the community prefers to call them, are found outside at night.");
+			System.out.println("They’re extremely noticeable if they’re moving, as they’re quite large. But, when they’re");
+			System.out.println("stationary, they can blend in with the trees");
+			System.out.println("");
+			System.out.println("Giants are a lethal threat if they sense you. Once they’re aware of your presence, they will");
+			System.out.println("attempt to pick you up and eat you. Once you’ve been eaten, that person and their resources");
+			System.out.println("should be counted as lost. However, Forest Keepers are only aware of motion. Thus, the best");
+			System.out.println("way to avoid them is to crouch and move slowly out of their line of sight.");
+		}else if(bestiary.equalsIgnoreCase("Eyeless Dog")){
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("Eyeless Dog:");
+			System.out.println("");
+			System.out.println("Eyeless Dogs, as their names imply, are blind. Thus, they rely heavily on touch and sound.");
+			System.out.println("Sound includes, unfortunately, mic input. Once an Eyeless Dog has been made aware of your");
+			System.out.println("presence, it will roar and begin dashing and investigating the area where it heard the noise. If");
+			System.out.println("it finds you, it will grab you in its giant mouth and shake you like an oversized dog toy.");
+			System.out.println("");
+			System.out.println("An Eyeless Dog’s roar will notify all other Eyeless Dogs in the area.");
+			System.out.println("");
+			System.out.println("To avoid this, keep quiet comms, stay crouched, and move slowly to get past them. If a pack of");
+			System.out.println("Eyeless Dogs is blocking your way, you can order an item. Its delivery will distract the dogs to");
+			System.out.println("that area. Just make sure it’s not a high-value item you’ll regret not being able to get.");
+		}else if(bestiary.equalsIgnoreCase("Earth Leviathan")){
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("Earth Leviathan");
+			System.out.println("");
+			System.out.println("Are you really in space if there isn’t a giant carnivorous earth worm beneath the sands? Earth");
+			System.out.println("Leviathans can only be found outside and only detected using the radar inside the ship.");
+			System.out.println("While using the radar, you’ll be able to see a giant red dot. This red dot indicates the Earth");
+			System.out.println("Leviathan.");
+			System.out.println("");
+			System.out.println("They will target players who are outside. Once they have a player in their “sights” they’ll roar,");
+			System.out.println("though the sound will be muffled by dirt. The ground will begin to rumble, signifying the Earth");
+			System.out.println("Leviathan’s ascent. The player must then run or retreat back the way they came in order to");
+			System.out.println("avoid the Earth Leviathan. If they fail to do so in time, it will swallow the player and the items");
+			System.out.println("they were holding, killing them instantly.");
+			System.out.println("");
+			System.out.println("Rocks are not safe while you’re in range of the Earth Leviathan’s attack.");
+			
+		}else if(bestiary.equalsIgnoreCase("Babboon Hawk")){
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println("Babboon Hawk");
+			System.out.println("");
+			System.out.println("Baboon hawks, as their name implies, are a combination of baboons and hawks. You’ll see");
+			System.out.println("them jumping along the ground with their stout back legs, but they maintain both wings and a");
+			System.out.println("sharp beak, which it will use to attack anyone who comes too close.");
+			System.out.println("");
+			System.out.println("In general, Baboon Hawks will only become aggressive and attack you if they outnumber you");
+			System.out.println("and you enter their territory. But, if you and your team outnumber them, they’ll tend to stay");
+			System.out.println("away. But if you wander off alone while in their territory, they will attack. The tend to follow");
+			System.out.println("players, and are very difficult to kill.");
+			System.out.println("");
+			System.out.println("if you must walk through Baboon Hawk territory and happen to be outnumbered, the best");
+			System.out.println("thing you can do is to sprint through them to safety. Dropping a stun grenade can buy you");
+			System.out.println("time. But because they can take approximately seven blows with a shovel to kill and are");
+			System.out.println("almost always in packs, it’s not recommended you try and kill them. They will likely");
+			System.out.println("overwhelm you.");
+		}else if(bestiary.equalsIgnoreCase("")){
+		}
+		}else if (help.equalsIgnoreCase("m")){
+			
+		}else if (help.equalsIgnoreCase("s")){
+			
+		}else if (help.equalsIgnoreCase("b")){
+		}else {	
+			
+		}
+		}
+	}
+	}
