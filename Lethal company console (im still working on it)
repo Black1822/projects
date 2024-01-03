@@ -29,6 +29,10 @@ public class best {
 			System.out.println("");
 			System.out.println("");
 			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
 		System.out.println(money+"$");
 		System.out.println(">MOONS");
 		System.out.println("To see list of moons the autopilot can route to.");
@@ -47,6 +51,27 @@ public class best {
 		
 		String help= scan.nextLine();
 		if (help.equalsIgnoreCase("moons")){
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
 			System.out.println(money+ "$");
 			System.out.println("");
 			System.out.println("Welcome to the exomoons catalogue.");
@@ -520,8 +545,7 @@ public class best {
 						    		}else if(money>120)
 						    	System.out.println("You complitely bought the TZP-Inhalant the item");
 								System.out.println("will arrive with rocket.");
-						    	}
-						    	
+						    	} 	
 					    	}else if (store.equalsIgnoreCase("Zap gun")){
 					    		System.out.println("");
 					    		System.out.println("");
@@ -575,7 +599,6 @@ public class best {
 						    	System.out.println("You complitely bought the Jetpack the item");
 								System.out.println("will arrive with rocket.");
 						    	}
-						    	
 					    	}else if (store.equalsIgnoreCase("Extension ladder")){
 						    	System.out.println("The cost of Extension ladder is 60$");
 						    	System.out.println("Please Confirm or Deny");
@@ -606,7 +629,9 @@ public class best {
 								    			System.out.println("You cant afford this item");
 								    		}else if(money>150)
 								    	System.out.println("You complitely bought the Loud horn the item");
-										System.out.println("will arrive with rocket.");
+										System.out.println("is in your *Storage*");
+										int loudhorn=0;
+										loudhorn++;
 								    	}
 								    	
 								    	}else if (store.equalsIgnoreCase("Teleporter")){
@@ -617,7 +642,9 @@ public class best {
 									    			System.out.println("You cant afford this item");
 									    		}else if(money>375)
 									    	System.out.println("You complitely bought the Teleporter the item");
-											System.out.println("will arrive with rocket.");
+											System.out.println("is in your *Storage*");
+											int Teleporter=0;
+											Teleporter++;
 									    	}
 									    	
 									    	}else if (store.equalsIgnoreCase("Inverse Teleporter")){
@@ -628,7 +655,9 @@ public class best {
 										    			System.out.println("You cant afford this item");
 										    		}else if(money>415)
 										    	System.out.println("You complitely bought the Inverse Teleporter the item");
-												System.out.println("will arrive with rocket.");
+												System.out.println("is in your *Storage*");
+												int InverseTeleporter=0;
+												InverseTeleporter++;
 										    	}
 										    	
 										    	}else if (store.equalsIgnoreCase("Record player")){
@@ -855,7 +884,7 @@ public class best {
 			System.out.println("touch it. Thus, a good way to counter the Hygrodere is to simply jump over it. It’s");
 			System.out.println("recommended that you not hit them, as this turns the blue haze hostile, causing it to move");
 			System.out.println("faster.");
-		}else if(bestiary.equalsIgnoreCase("Bunker Spider")){
+		}else if(bestiary.equalsIgnoreCase("Bunker Spiders")){
 			System.out.println();
 			System.out.println();
 			System.out.println();
@@ -1247,16 +1276,68 @@ public class best {
 			System.out.println("time. But because they can take approximately seven blows with a shovel to kill and are");
 			System.out.println("almost always in packs, it’s not recommended you try and kill them. They will likely");
 			System.out.println("overwhelm you.");
-		}else if(bestiary.equalsIgnoreCase("")){
 		}
-		}else if (help.equalsIgnoreCase("m")){
-			
-		}else if (help.equalsIgnoreCase("s")){
-			
-		}else if (help.equalsIgnoreCase("b")){
-		}else {	
-			
-		}
+		}else if (help.equalsIgnoreCase("Storage")){
+			System.out.println("STORAGE");
+			System.out.println("");
+			System.out.println("Table // 2");
+			System.out.println("Inverse Teleporter // 1");
+			System.out.println("teleporter // 1");
+			System.out.println("television // 1");
+			System.out.println("Loud Horn // 3");
+			String storage= scan.nextLine();
+			if(storage.equalsIgnoreCase("Table")){
+				System.out.println("Press 'B' to place Table");
+				System.out.println("Press 'R' to rotate Table");
+				String Table= scan.nextLine();
+				int random=0;
+				if(Table.equalsIgnoreCase("B")){
+				System.out.println("you have placed the table");
+				System.exit(0);
+				}else if(Table.equalsIgnoreCase("R"));
+				System.out.println("You have rotated the table");
+				}else if(storage.equalsIgnoreCase("inverse teleporter")){
+					System.out.println("Press 'B' to place inverse teleporter");
+					System.out.println("Press 'R' to rotate inverse teleporter");
+					String inverseteleporter= scan.nextLine();
+					int random=0;
+					if(inverseteleporter.equalsIgnoreCase("B")){
+					System.out.println("you have placed the inverse teleporter");
+					System.exit(0);
+					}else if(inverseteleporter.equalsIgnoreCase("R"));
+					System.out.println("You have rotated the inverse teleporter");
+					}else if(storage.equalsIgnoreCase("Teleporter")){
+						System.out.println("Press 'B' to place Teleporter");
+						System.out.println("Press 'R' to rotate Telpeorter");
+						String Teleporter= scan.nextLine();
+						int random=0;
+						if(Teleporter.equalsIgnoreCase("B")){
+						System.out.println("you have placed the Teleporter");
+						System.exit(0);
+						}else if(Teleporter.equalsIgnoreCase("R"));
+						System.out.println("You have rotated the Teleporter");
+						}else if(storage.equalsIgnoreCase("Television")){
+							System.out.println("Press 'B' to place Television");
+							System.out.println("Press 'R' to rotate Television");
+							String Television= scan.nextLine();
+							int random=0;
+							if(Television.equalsIgnoreCase("B")){
+							System.out.println("you have placed the Television");
+							System.exit(0);
+							}else if(Television.equalsIgnoreCase("R"));
+							System.out.println("You have rotated the Television");
+							}else if(storage.equalsIgnoreCase("Loud horn")){
+								System.out.println("Press 'B' to place Loud horn");
+								System.out.println("Press 'R' to rotate Loud horn");
+								String LoudHorn= scan.nextLine();
+								int random=0;
+								if(LoudHorn.equalsIgnoreCase("B")){
+								System.out.println("you have placed the Loud Horn");
+								System.exit(0);
+								}else if(LoudHorn.equalsIgnoreCase("R"));
+								System.out.println("You have rotated the Loud Horn");
+								}
+			}
 		}
 	}
-	}
+}
