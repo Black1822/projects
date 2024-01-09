@@ -48,7 +48,6 @@ public class best {
 		System.out.println("");
 		System.out.println(">OTHER");
 		System.out.println("To see the list of other commands");
-		
 		String help= scan.nextLine();
 		if (help.equalsIgnoreCase("moons")){
 			System.out.println("");
@@ -387,7 +386,6 @@ public class best {
 			    		}else if(money>12) 
 			    	System.out.println("You complitely bought the Walkie-Talkie the item");
 					System.out.println("will arrive with rocket.");
-			    		
 			    }else if (store.equalsIgnoreCase("Flashlight")){
 			    	System.out.println("");
 		    		System.out.println("");
@@ -492,7 +490,6 @@ public class best {
 					    	System.out.println("You complitely bought the Stun Grenade the item");
 							System.out.println("will arrive with rocket.");
 					    	}
-					    	
 				    	}else if (store.equalsIgnoreCase("Boombox")){
 				    		System.out.println("");
 				    		System.out.println("");
@@ -519,7 +516,6 @@ public class best {
 						    	System.out.println("You complitely bought the Boombox the item");
 								System.out.println("will arrive with rocket.");
 						    	}
-						    	
 					    	}else if (store.equalsIgnoreCase("TZP-Inhalant")){
 					    		System.out.println("");
 					    		System.out.println("");
@@ -572,7 +568,6 @@ public class best {
 						    	System.out.println("You complitely bought the Zap gun the item");
 								System.out.println("will arrive with rocket.");
 						    	}
-						    	
 					    	}else if (store.equalsIgnoreCase("Jetpack")){
 					    		System.out.println("");
 					    		System.out.println("");
@@ -1224,7 +1219,6 @@ public class best {
 			System.out.println("they were holding, killing them instantly.");
 			System.out.println("");
 			System.out.println("Rocks are not safe while you’re in range of the Earth Leviathan’s attack.");
-			
 		}else if(bestiary.equalsIgnoreCase("Babboon Hawk")){
 			System.out.println();
 			System.out.println();
@@ -1341,3 +1335,4 @@ public class best {
 		}
 	}
 }
+//By Black182
