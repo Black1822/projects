@@ -369,45 +369,7 @@ public class writingame {
                @Override
                public void run() {
                       sayac++;
-                      if(sayac==1) {
-                    	  System.out.println("                                                       !!!1 seconds left!!!");
-                      }else if(sayac==2) {
-                    	  System.out.println("                                                       !!!2 seconds left!!!");
-                      }else if(sayac==3) {
-                    	  System.out.println("                                                       !!!3 seconds left!!!");
-                      }else if(sayac==4) {
-                    	  System.out.println("                                                       !!!4 seconds left!!!");
-                      }else if(sayac==5) {
-                    	  System.out.println("                                                       !!!5 seconds left!!!");
-                      }else if(sayac==6) {
-                    	  System.out.println("                                                       !!!6 seconds left!!!");
-                      }else if(sayac==7) {
-                    	  System.out.println("                                                       !!!7 seconds left!!!");
-                      }else if(sayac==8) {
-                    	  System.out.println("                                                       !!!8 seconds left!!!");
-                      }else if(sayac==9) {
-                    	  System.out.println("                                                       !!!9 seconds left!!!");
-                      }else if(sayac==10) {
-                    	  System.out.println("                                                       !!!10 seconds left!!!");
-                      }else if(sayac==11) {
-                    	  System.out.println("                                                       !!!11 seconds left!!!");
-                      }else if(sayac==12) {
-                    	  System.out.println("                                                       !!!12 seconds left!!!");
-                      }else if(sayac==13) {
-                    	  System.out.println("                                                       !!!13 seconds left!!!");
-                      }else if(sayac==14) {
-                    	  System.out.println("                                                       !!!14 seconds left!!!");
-                      }else if(sayac==15) {
-                    	  System.out.println("                                                       !!!15 seconds left!!!");
-                      }else if(sayac==16) {
-                    	  System.out.println("                                                       !!!16 seconds left!!!");
-                      }else if(sayac==17) {
-                    	  System.out.println("                                                       !!!17 seconds left!!!");
-                      }else if(sayac==18) {
-                    	  System.out.println("                                                       !!!18 seconds left!!!");
-                      }else if(sayac==19) {
-                    	  System.out.println("                                                       !!!19 seconds left!!!");
-                      }if(sayac==20) {
+                      if(sayac==15) {
                              myTimer.cancel();
                              System.out.println("GAME OVER");
                              try { Thread.sleep(3L * 300L); } 
