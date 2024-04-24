@@ -3,10 +3,13 @@ import java.util.Scanner;
 public class vs {
 	public static void main(String[] args) {
 		int first;
+		int firsthelper;
 		int second = 0;
+		int secondhelper = 0;
 		Scanner scan = new Scanner(System.in);
 				System.out.println ("Character list:");
 				System.out.println ("-toji");
+				System.out.println ("-hakari");
 				System.out.println ("-sukuna");
 				System.out.println ("-gojo");
 				System.out.println ("-megumi");
@@ -27,7 +30,7 @@ public class vs {
 		}
 		else if (Character1.equalsIgnoreCase("sukuna")) {
 				System.out.println("you choosed First Character to "+Character1 );
-				first= 1000;
+				first= 935;
 			}
 			else if (Character1.equalsIgnoreCase("gojo")) {
 				System.out.println("you choosed First Character to "+Character1 );
@@ -39,7 +42,7 @@ public class vs {
 			}
 			else if (Character1.equalsIgnoreCase("yuji")) {
 				System.out.println("you choosed First Character to "+Character1 );
-				first= 450;
+				first= 550;
 			}
 			else if (Character1.equalsIgnoreCase("todo")) {
 				System.out.println("you choosed First Character to "+Character1 );
@@ -59,23 +62,15 @@ public class vs {
 			}
 			else if (Character1.equalsIgnoreCase("yuta")) {
 				System.out.println("you choosed First Character to "+Character1 );
+				first= 850;
+			}
+			else if (Character1.equalsIgnoreCase("nobara")) {
+				System.out.println("you choosed First Character to "+Character1 );
+				first= 300;
+			}
+			else if (Character1.equalsIgnoreCase("hakari")) {
+				System.out.println("you choosed First Character to "+Character1 );
 				first= 900;
-			}
-			else if (Character1.equalsIgnoreCase("nobara")) {
-				System.out.println("you choosed First Character to "+Character1 );
-				first= 300;
-			}
-			else if (Character1.equalsIgnoreCase("nobara")) {
-				System.out.println("you choosed First Character to "+Character1 );
-				first= 300;
-			}
-			else if (Character1.equalsIgnoreCase("nobara")) {
-				System.out.println("you choosed First Character to "+Character1 );
-				first= 300;
-			}
-			else if (Character1.equalsIgnoreCase("nobara")) {
-				System.out.println("you choosed First Character to "+Character1 );
-				first= 300;
 			}
 			else {
 				System.out.println("");
@@ -85,8 +80,85 @@ public class vs {
 				System.exit(0);
 			}
 		System.out.println("---------------------------------------------------------------------------------------------------------------------------------------");
+		System.out.println("now choose your helper");
+		System.out.println("---------------------------------------------------------------------------------------------------------------------------------------");
+String Character1helper = scan.nextLine();
+if (Character1helper.equalsIgnoreCase("toji")){
+	System.out.println("you choosed First's Helper Character to "+ Character1helper );
+	firsthelper= 100000;
+}
+else if (Character1helper.equalsIgnoreCase("sukuna")) {
+		System.out.println("you choosed First's Helper Character to "+Character1helper  );
+		firsthelper= 935;
+	}
+	else if (Character1helper.equalsIgnoreCase("gojo")) {
+		System.out.println("you choosed First's Helper Character to "+Character1helper  );
+		firsthelper = 950;
+	}
+	else if (Character1helper.equalsIgnoreCase("megumi")) {
+		System.out.println("you choosed First's Helper Character to "+Character1helper  );
+		firsthelper = 350;
+	}
+	else if (Character1helper.equalsIgnoreCase("yuji")) {
+		System.out.println("you choosed First's Helper Character to "+Character1helper  );
+		firsthelper = 550;
+	}
+	else if (Character1helper.equalsIgnoreCase("todo")) {
+		System.out.println("you choosed First's Helper Character to "+Character1helper  );
+		firsthelper = 375;
+	}
+	else if (Character1helper.equalsIgnoreCase("nanami")) {
+		System.out.println("you choosed First's Helper Character to "+Character1helper  );
+		firsthelper = 500;
+	}
+	else if (Character1helper.equalsIgnoreCase("jogo")) {
+		System.out.println("you choosed First's Helper Character to "+Character1helper  );
+		firsthelper = 600;
+	}
+	else if (Character1helper.equalsIgnoreCase("geto")) {
+		System.out.println("you choosed First's Helper Character to "+Character1helper  );
+		firsthelper = 800;
+	}
+	else if (Character1helper.equalsIgnoreCase("yuta")) {
+		System.out.println("you choosed First's Helper Character to "+Character1helper  );
+		firsthelper = 850;
+	}
+	else if (Character1helper.equalsIgnoreCase("nobara")) {
+		System.out.println("you choosed First's Helper Character to "+Character1helper  );
+		firsthelper = 300;
+	}
+	else if (Character1helper.equalsIgnoreCase("hakari")) {
+		System.out.println("you choosed First's Helper Character to "+Character1helper );
+		firsthelper = 900;
+	}
+	else {
+		System.out.println("");
+		System.out.println("please choose aviable character ");
+		firsthelper=0;
+		System.exit(0);
+	} 
+		System.out.println("---------------------------------------------------------------------------------------------------------------------------------------");
 		System.out.println("Now choose your second character");
 		System.out.println("---------------------------------------------------------------------------------------------------------------------------------------");
+		System.out.println ("Character list:");
+		System.out.println ("-toji");
+		System.out.println ("-hakari");
+		System.out.println ("-sukuna");
+		System.out.println ("-gojo");
+		System.out.println ("-megumi");
+		System.out.println ("-yuji");
+		System.out.println ("-todo");
+		System.out.println ("-nanami");
+		System.out.println ("-jogo");
+		System.out.println ("-geto");
+		System.out.println ("-yuta");
+		System.out.println ("-nobara");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
 		String Character2 = scan.nextLine();
 		if (Character2.equalsIgnoreCase("toji")) {
 			System.out.println("you choosed Second Character to "+Character2 );
@@ -94,7 +166,7 @@ public class vs {
 		}
 		else if (Character2.equalsIgnoreCase("sukuna")) {
 				System.out.println("you choosed Second Character to "+Character2 );
-				second=1000;
+				second=935;
 			}
 			else if (Character2.equalsIgnoreCase("gojo")) {
 				System.out.println("you choosed Second Character to "+Character2 );
@@ -126,74 +198,351 @@ public class vs {
 			}
 		else if (Character2.equalsIgnoreCase("yuta")) {
 				System.out.println("you choosed Second Character to "+Character2 );
-				second= 900;
+				second= 850;
 			}
 			else if (Character2.equalsIgnoreCase("nobara")) {
 				System.out.println("you choosed Second Character to "+Character2 );
 				second= 300;
 			}
+			else if (Character2.equalsIgnoreCase("hakari")) {
+				System.out.println("you choosed Second Character to "+Character2 );
+				second= 900;
+			}
 			else {
 				System.out.println("Please choose aviable character ");
 				System.exit(0);
 			}
+		System.out.println("---------------------------------------------------------------------------------------------------------------------------------------");
+		System.out.println("Choose Second Character's Helper");
+		System.out.println("---------------------------------------------------------------------------------------------------------------------------------------");
+		
+		String Character2helper = scan.nextLine();
+		if (Character1helper.equalsIgnoreCase("toji")){
+			System.out.println("you choosed second's helper Character to "+ Character2helper );
+			secondhelper= 100000;
+		}
+		else if (Character2helper.equalsIgnoreCase("sukuna")) {
+				System.out.println("you choosed second's helper Character to "+Character2helper  );
+				secondhelper= 935;
+			}
+			else if (Character2helper.equalsIgnoreCase("gojo")) {
+				System.out.println("you choosed second's helper Character to "+Character2helper  );
+				secondhelper = 950;
+			}
+			else if (Character2helper.equalsIgnoreCase("megumi")) {
+				System.out.println("you choosed second's helper Character to "+Character2helper  );
+				secondhelper = 350;
+			}
+			else if (Character2helper.equalsIgnoreCase("yuji")) {
+				System.out.println("you choosed second's helper Character to "+Character2helper  );
+				secondhelper = 550;
+			}
+			else if (Character2helper.equalsIgnoreCase("todo")) {
+				System.out.println("you choosed second's helper Character to "+Character2helper  );
+				secondhelper = 375;
+			}
+			else if (Character2helper.equalsIgnoreCase("nanami")) {
+				System.out.println("you choosed second's helper Character to "+Character2helper  );
+				secondhelper = 500;
+			}
+			else if (Character2helper.equalsIgnoreCase("jogo")) {
+				System.out.println("you choosed second's helper Character to "+Character2helper  );
+				secondhelper = 600;
+			}
+			else if (Character2helper.equalsIgnoreCase("geto")) {
+				System.out.println("you choosed second's helper Character to "+Character2helper  );
+				secondhelper = 800;
+			}
+			else if (Character2helper.equalsIgnoreCase("yuta")) {
+				System.out.println("you choosed second's helper Character to "+Character2helper  );
+				secondhelper = 850;
+			}
+			else if (Character2helper.equalsIgnoreCase("nobara")) {
+				System.out.println("you choosed second's helper Character to "+Character2helper  );
+				secondhelper = 300;
+			}
+			else if (Character2helper.equalsIgnoreCase("hakari")) {
+				System.out.println("you choosed second's helper Character to "+Character2helper );
+				secondhelper = 900;
+			}
+			else {
+				System.out.println("");
+				System.out.println("please choose aviable character ");
+				second=0;
+				first= 0;
+				System.exit(0);
+			}
+		if (Character1.equalsIgnoreCase("todo"));{
+		    if (Character1helper.equalsIgnoreCase("yuji"));{
+				System.out.println("Team1 Activated 'BESTO FRIENDO'");
+				first=1375;
+			}
+		}
+		if (Character1helper.equalsIgnoreCase("todo"));{
+			if (Character1.equalsIgnoreCase("yuji"));{
+				System.out.println("Team1 Activated 'BESTO FRIENDO'");
+				firsthelper=1375;
+			}
+		}
+		if (Character2.equalsIgnoreCase("todo"));{
+			if (Character2helper.equalsIgnoreCase("yuji"));{
+				System.out.println("Team1 Activated 'BESTO FRIENDO'");
+				second=1375;
+			}
+		}
+		if (Character2helper.equalsIgnoreCase("todo"));{
+			if (Character2.equalsIgnoreCase("yuji"));{
+				System.out.println("Team1 Activated 'BESTO FRIENDO'");
+				secondhelper=1375;
+			}
+		}
+		
 		System.out.println("");
-		System.out.println(Character1 +(" vs ")+ Character2);
+		System.out.println(Character1+" and "+Character1helper +(" vs ")+ Character2 + " and " + Character2helper);
 		System.out.println("");
 		System.out.println("Fight has been start...(it can take a while)");
 		System.out.println("");
-		try { Thread.sleep(6L * 600L); } 
-		catch (InterruptedException e) {     
+		int i = 0;
+		while (i < 2) { 
+		  i++;
+		try { Thread.sleep(3L * 300L); }
+		catch (InterruptedException e) {
 			e.printStackTrace();
 			}
-		int random1 = (int)(Math.random() * 4) + 0;
+		int random1 = (int)(Math.random() * 6) + 0;
 		if (random1==1){
 			System.out.println("");
-			System.out.println(Character1+ " scratched from his eye");
+			System.out.println(Character1+ " scratched from his eye by "+ Character2);
 			System.out.println("");
 	    }else if(random1==2) {
 	    	System.out.println("");
-			System.out.println(Character1+ " got stabbed");
+			System.out.println(Character1+ " got stabbed by "+ Character2);
 			System.out.println("");
 		}else if(random1==3) {
 			System.out.println("");
 			System.out.println(Character1+ " punched "+Character2+" at his face!");
 			System.out.println("");
+		}else if(random1==4) {
+			System.out.println("");
+			System.out.println(Character1+ " get kicked by "+ Character2);
+			System.out.println("");
+		}else if(random1==5) {
+			System.out.println("");
+			System.out.println(Character1+ " slammed by "+Character2);
+			System.out.println("");
 		}
 		{
-	try { Thread.sleep(6L * 600L); } 
+			try { Thread.sleep(4L * 400L); } 
+			catch (InterruptedException e) {     
+				e.printStackTrace();
+			}
+			int random2 = (int)(Math.random() * 6) + 0;
+		if (random2==1){
+			System.out.println("");
+			System.out.println(Character1+ " scratched from his eye by "+ Character2helper);
+			System.out.println("");
+	    }else if(random2==2) {
+	    	System.out.println("");
+			System.out.println(Character1+ " got stabbed by "+ Character2helper);
+			System.out.println("");
+		}else if(random2==3) {
+			System.out.println("");
+			System.out.println(Character1+ " punched "+Character2helper+" at his face!");
+			System.out.println("");
+		}else if(random2==4) {
+			System.out.println("");
+			System.out.println(Character1+ " get kicked by "+ Character2helper);
+			System.out.println("");
+		}else if(random2==5) {
+			System.out.println("");
+			System.out.println(Character1+ " slammed by "+Character2helper);
+			System.out.println("");
+		}
+		{
+			try { Thread.sleep(4L * 400L); } 
+			catch (InterruptedException e) {     
+				e.printStackTrace();
+			}
+		}
+		int random3 = (int)(Math.random() * 6) + 0;
+		if (random3==1){
+			System.out.println("");
+			System.out.println(Character1helper+ " scratched from his eye by "+ Character2helper);
+			System.out.println("");
+	    }else if(random3==2) {
+	    	System.out.println("");
+			System.out.println(Character1helper+ " got stabbed by "+ Character2helper);
+			System.out.println("");
+		}else if(random3==3) {
+			System.out.println("");
+			System.out.println(Character1helper+ " punched "+Character2helper+" at his face!");
+			System.out.println("");
+		}else if(random3==4) {
+			System.out.println("");
+			System.out.println(Character1helper+ " get kicked by "+ Character2helper);
+			System.out.println("");
+		}else if(random3==5) {
+			System.out.println("");
+			System.out.println(Character1helper+ " slammed by "+Character2helper);
+			System.out.println("");
+		}
+		{
+			try { Thread.sleep(4L * 400L); } 
+			catch (InterruptedException e) {     
+				e.printStackTrace();
+			}
+			int random4 = (int)(Math.random() * 6) + 0;
+		if (random4==1){
+			System.out.println("");
+			System.out.println(Character1helper+ " scratched from his eye by "+ Character2);
+			System.out.println("");
+	    }else if(random4==2) {
+	    	System.out.println("");
+			System.out.println(Character1helper+ " got stabbed by "+ Character2);
+			System.out.println("");
+		}else if(random4==3) {
+			System.out.println("");
+			System.out.println(Character1helper+ " punched "+Character2+" at his face!");
+			System.out.println("");
+		}else if(random4==4) {
+			System.out.println("");
+			System.out.println(Character1helper+ " get kicked by "+ Character2);
+			System.out.println("");
+		}else if(random4==5) {
+			System.out.println("");
+			System.out.println(Character1helper+ " slammed by "+Character2);
+			System.out.println("");
+			{
+	try { Thread.sleep(4L * 400L); } 
 	catch (InterruptedException e) {     
 		e.printStackTrace();
 	}
 		}
-		int random2 = (int)(Math.random() * 4) + 0;
-		if (random2==1){
+		int random5 = (int)(Math.random() * 3L) + 300;
+		if (random5==1){
 			System.out.println("");
-			System.out.println(Character2+ " scratched from his eye");
+			System.out.println(Character2+ " scratched from his eye by " + Character1);
 			System.out.println("");
-	    }else if(random2==2) {
+	    }else if(random5==2) {
 	    	System.out.println("");
-			System.out.println(Character2+ " got stabbed");
+			System.out.println(Character2+ " got stabbed by "+ Character1);
 			System.out.println("");
-		}else if(random2==3) {
+		}else if(random5==3) {
 			System.out.println("");
 			System.out.println(Character2+ " punched "+Character1+" at his face!");
 			System.out.println("");
+		}else if(random5==4) {
+			System.out.println("");
+			System.out.println(Character2+ " get kicked by "+ Character1);
+			System.out.println("");
+		}else if(random5==5) {
+			System.out.println("");
+			System.out.println(Character2+ " slammed by "+Character1);
+			System.out.println("");
 		}
+		{
+			try { Thread.sleep(4L * 400L); } 
+			catch (InterruptedException e) {     
+				e.printStackTrace();
+			}	
+		}
+		int random6 = (int)(Math.random() * 6) + 0;
+		if (random6==1){
+			System.out.println("");
+			System.out.println(Character2+ " scratched from his eye by " + Character1helper);
+			System.out.println("");
+	    }else if(random6==2) {
+	    	System.out.println("");
+			System.out.println(Character2+ " got stabbed by "+ Character1helper);
+			System.out.println("");
+		}else if(random6==3) {
+			System.out.println("");
+			System.out.println(Character2+ " punched "+Character1helper+" at his face!");
+			System.out.println("");
+		}else if(random6==4) {
+			System.out.println("");
+			System.out.println(Character2+ " get kicked by "+ Character1helper);
+			System.out.println("");
+		}else if(random6==5) {
+			System.out.println("");
+			System.out.println(Character2+ " slammed by "+Character1helper);
+			System.out.println("");
+		}
+		{
+			try { Thread.sleep(4L * 400L); } 
+			catch (InterruptedException e) {     
+				e.printStackTrace();
+			}
 			
+		}
+		int random7 = (int)(Math.random() * 6) + 0;
+		if (random7==1){
+			System.out.println("");
+			System.out.println(Character2helper+ " scratched from his eye by "+ Character1helper);
+			System.out.println("");
+	    }else if(random7==2) {
+	    	System.out.println("");
+			System.out.println(Character2helper+ " got stabbed by "+ Character1helper);
+			System.out.println("");
+		}else if(random7==3) {
+			System.out.println("");
+			System.out.println(Character2helper+ " punched "+Character1helper+" at his face!");
+			System.out.println("");
+		}else if(random7==4) {
+			System.out.println("");
+			System.out.println(Character2helper+ " get kicked by "+ Character1helper);
+			System.out.println("");
+		}else if(random7==5) {
+			System.out.println("");
+			System.out.println(Character2helper+ " slammed by "+Character1helper);
+			System.out.println("");
+		}
+		}
 			{
-				try { Thread.sleep(6L * 600L); } 
+				try { Thread.sleep(4L * 400L); } 
 				catch (InterruptedException e) {     
 					e.printStackTrace();
 				}
 			}
-		if(second > first) {
-			System.out.println(Character2 + (" won!!!!!"));
-			System.out.println((Character2)+("'s Score: ")+(second - first));
+			int random8 = (int)(Math.random() * 6) + 0;
+			if (random8==1){
+				System.out.println("");
+				System.out.println(Character2helper+ " scratched from his eye by "+ Character1);
+				System.out.println("");
+		    }else if(random8==2) {
+		    	System.out.println("");
+				System.out.println(Character2helper+ " got stabbed by "+ Character1);
+				System.out.println("");
+			}else if(random8==3) {
+				System.out.println("");
+				System.out.println(Character2helper+ " punched "+Character1+" at his face!");
+				System.out.println("");
+			}else if(random8==4) {
+				System.out.println("");
+				System.out.println(Character2helper+ " get kicked by "+ Character1);
+				System.out.println("");
+			}else if(random8==5) {
+				System.out.println("");
+				System.out.println(Character2helper+ " slammed by "+Character1);
+				System.out.println("");
+			}
+			}
+				{
+					try { Thread.sleep(4L * 400L); } 
+					catch (InterruptedException e) {     
+						e.printStackTrace();
+					}
+				}
 		}
-		if(first > second) {
-			System.out.println(Character1 + (" won!!!!!"));
-			System.out.println((Character1)+("'s Score : ")+(first - second));		}
-		if(first == second) {
+		}
+		if(second+secondhelper > first+firsthelper) {
+			System.out.println(Character2 + " and " +Character2helper+ (" won!!!!!"));
+			System.out.println(("Score: ")+(second+secondhelper - first+firsthelper));
+		}
+		if(first+firsthelper > second+secondhelper) {
+			System.out.println(Character1 + " and " +Character1helper +(" won!!!!!"));
+			System.out.println(("Score : ")+(first+firsthelper - second+secondhelper));}
+		if(firsthelper+first == secondhelper+second) {
 			System.out.println("Draw");
 		}
 	}
