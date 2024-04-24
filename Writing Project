@@ -1,0 +1,473 @@
+package name;
+import java.util.Timer;
+import java.util.TimerTask;
+import java.util.Scanner;
+public class writingame {
+	public static void main(String[] args) throws InterruptedException {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("you have 20 second to answer type 20 words or else you'll lose  ");
+		System.out.println("Press *Enter* to Begin");
+		String Character2 = scan.nextLine();
+		String theword = null;
+		System.out.println("Goodluck, enjoy");
+		try { Thread.sleep(3L * 300L); } 
+		catch (InterruptedException e) {     
+			e.printStackTrace();
+			}
+		System.out.println("3");
+		try { Thread.sleep(2L * 200L); }  
+		catch (InterruptedException e) {     
+			e.printStackTrace();
+			}
+		System.out.println("2");
+		try { Thread.sleep(2L * 200L); } 
+		catch (InterruptedException e) {     
+			e.printStackTrace();
+			}
+		{
+	}
+	System.out.println("1");
+	try { Thread.sleep(2L * 200L); } 
+	catch (InterruptedException e) {     
+		e.printStackTrace();
+		}
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("");
+		int test = 0;
+		int puan = 0;
+		do {
+		int number = (int)(Math.random() * 75) + 0;
+		int number1 = (int)(Math.random() * 75) + 0;
+		if(number + number1 == 1) {			
+		System.out.println(theword= "apple");
+		}else if(number + number1 == 2)	{		
+		System.out.println(theword= "approach");
+		}else if(number + number1 == 3) {
+		System.out.println(theword= "crow");
+		}else if(number + number1 == 4) {
+			System.out.println(theword= "dig");
+		}else if(number + number1 == 5) {
+			System.out.println(theword= "exchange");
+		}else if(number + number1 == 6) {
+			System.out.println(theword= "fruit");
+		}else if(number + number1 == 7) {
+			System.out.println(theword= "grape");
+		}else if(number + number1 == 8) {
+			System.out.println(theword= "honor");
+		}else if(number + number1 == 9) {
+			System.out.println(theword= "intellegent");
+		}else if(number + number1 == 10) {
+			System.out.println(theword= "joke");
+		}else if(number + number1 == 11) {
+			System.out.println(theword= "kingdom");
+		}else if(number + number1 == 12) {
+			System.out.println(theword= "logic");
+		}else if(number + number1 == 13) {
+			System.out.println(theword= "master");
+		}else if(number + number1 == 14) {
+			System.out.println(theword= "new");
+		}else if(number + number1 == 15) {
+			System.out.println(theword= "orachale");
+		}else if(number + number1 == 16) {
+			System.out.println(theword= "package");
+		}else if(number + number1 == 17) {
+			System.out.println(theword= "quality");
+		}else if(number + number1 == 18) {
+			System.out.println(theword= "relationship");
+		}else if(number + number1 == 19) {
+			System.out.println(theword= "smoke");
+		}else if(number + number1 == 20) {
+			System.out.println(theword= "torch");
+		}else if(number + number1 == 21) {
+			System.out.println(theword= "urban");
+		}else if(number + number1 == 22) {
+			System.out.println(theword= "variant");
+		}else if(number + number1 == 23) {
+			System.out.println(theword= "workspace");
+		}else if(number + number1 == 24) {
+			System.out.println(theword= "xeno");
+		}else if(number + number1 == 25) {
+			System.out.println(theword= "yawn");
+		}else if(number + number1 == 26) {
+			System.out.println(theword= "zipper");
+		}else if(number + number1 == 27) {
+			System.out.println(theword= "zippy");
+		}else if(number + number1 == 28) {
+			System.out.println(theword= "zoom");
+		}else if(number + number1 == 29) {
+			System.out.println(theword= "history");
+		}else if(number + number1 == 30) {
+			System.out.println(theword= "eclipse");
+		}else if(number + number1 == 31) {
+			System.out.println(theword= "goverment");
+		}else if(number + number1 == 32) {
+			System.out.println(theword= "core");
+		}else if(number + number1 == 33) {
+			System.out.println(theword= "horizon");
+		}else if(number + number1 == 34) {
+			System.out.println(theword= "crocodile");
+		}else if(number + number1 == 35) {
+			System.out.println(theword= "vision");	
+		}else if(number + number1 == 36) {
+			System.out.println(theword= "automatic");
+		}else if(number + number1 == 37) {
+			System.out.println(theword= "rule");
+		}else if(number + number1 == 38) {
+			System.out.println(theword= "jacket");
+		}else if(number + number1 == 39) {
+			System.out.println(theword= "velocity");
+		}else if(number + number1 == 40) {
+			System.out.println(theword= "orange");
+		}else if(number + number1 == 41) {
+			System.out.println(theword= "support");
+		}else if(number + number1 == 42) {
+			System.out.println(theword= "bucket");
+		}else if(number + number1 == 43) {
+			System.out.println(theword= "lucky");
+		}else if(number + number1 == 44) {
+			System.out.println(theword= "forge");
+		}else if(number + number1 == 45){
+			System.out.println(theword= "assigment");
+		}else if(number + number1 == 46) {
+			System.out.println(theword= "backup");
+		}else if(number + number1 == 47) {
+			System.out.println(theword= "direct");
+		}else if(number + number1 == 48) {
+			System.out.println(theword= "price");
+		}else if(number + number1 == 49) {
+			System.out.println(theword= "field");
+		}else if(number + number1 == 50) {
+			System.out.println(theword= "basement");
+		}else if(number + number1 == 51) {
+			System.out.println(theword= "care");
+		}else if(number + number1 == 52) {
+			System.out.println(theword= "pocket");
+		}else if(number + number1 == 53) {
+			System.out.println(theword= "zone");
+		}else if(number + number1 == 54) {
+			System.out.println(theword= "pixel");
+		}else if(number + number1 == 55) {
+			System.out.println(theword= "hell");
+		}else if(number + number1 == 56) {
+			System.out.println(theword= "backstage");
+		}else if(number + number1 == 57) {
+			System.out.println(theword= "trade");
+		}else if(number + number1 == 58) {
+			System.out.println(theword= "center");
+		}else if(number + number1 == 59) {
+			System.out.println(theword= "point");
+		}else if(number + number1 == 60) {
+			System.out.println(theword= "blame");
+		}else if(number + number1 == 61) {
+			System.out.println(theword= "whell");
+		}else if(number + number1 == 62) {
+			System.out.println(theword= "wault");
+		}else if(number + number1 == 63) {
+			System.out.println(theword= "lock");
+		}else if(number + number1 == 64) {
+			System.out.println(theword= "rent");
+		}else if(number + number1 == 65) {
+			System.out.println(theword= "lizard");
+		}else if(number + number1 == 66) {
+			System.out.println(theword= "plan");
+		}else if(number + number1 == 67) {
+			System.out.println(theword= "beach");
+		}else if(number + number1 == 68) {
+			System.out.println(theword= "umbrella");
+		}else if(number + number1 == 69) {
+			System.out.println(theword= "pencil");
+		}else if(number + number1 == 70) {
+			System.out.println(theword= "medival");
+		}else if(number + number1 == 71) {
+			System.out.println(theword= "obstinance");
+		}else if(number + number1 == 72) {
+			System.out.println(theword= "assuming");
+		}else if(number + number1 == 73) {
+			System.out.println(theword= "foramens");
+		}else if(number + number1 == 74) {
+			System.out.println(theword= "supercalifragilisticexpialidocious");
+		}else if(number + number1 == 75) {
+			System.out.println(theword= "onomatopoeia");
+		}else if(number + number1 == 76) {
+			System.out.println(theword= "intelligence");
+		}else if(number + number1 == 77) {
+			System.out.println(theword= "target");
+		}else if(number + number1 == 78) {
+			System.out.println(theword= "horn");
+		}else if(number + number1 == 79) {
+			System.out.println(theword= "computer");
+		}else if(number + number1 == 80) {
+			System.out.println(theword= "keyboard");
+		}else if(number + number1 == 81) {
+			System.out.println(theword= "confused");
+		}else if(number + number1 == 82) {
+			System.out.println(theword= "turn");
+		}else if(number + number1 == 83) {
+			System.out.println(theword= "lookup");
+		}else if(number + number1 == 84) {
+			System.out.println(theword= "sensevity");
+		}else if(number + number1 == 85) {
+			System.out.println(theword= "bench");
+		}else if(number + number1 == 86) {
+			System.out.println(theword= "pigeon");
+		}else if(number + number1 == 87) {
+			System.out.println(theword= "hunger");
+		}else if(number + number1 == 88) {
+			System.out.println(theword= "rain");
+		}else if(number + number1 == 89) {
+			System.out.println(theword= "normally");
+		}else if(number + number1 == 90) {
+			System.out.println(theword= "culture");
+		}else if(number + number1 == 91) {
+			System.out.println(theword= "progress");
+		}else if(number + number1 == 92) {
+			System.out.println(theword= "gym");
+		}else if(number + number1 == 93) {
+			System.out.println(theword= "melt");
+		}else if(number + number1 == 94) {
+			System.out.println(theword= "example");
+		}else if(number + number1 == 95) {
+			System.out.println(theword= "texture");
+		}else if(number + number1 == 96) {
+			System.out.println(theword= "tool");
+		}else if(number + number1 == 97) {
+			System.out.println(theword= "hub");
+		}else if(number + number1 == 98) {
+			System.out.println(theword= "switch");
+		}else if(number + number1 == 99) {
+			System.out.println(theword= "certain");
+		}else if(number + number1 == 100) {
+			System.out.println(theword= "bake");
+		}else if(number + number1 == 101) {
+			System.out.println(theword= "cover");
+		}else if(number + number1 == 102) {
+			System.out.println(theword= "dream");
+		}else if(number + number1 == 103) {
+			System.out.println(theword= "sure");
+		}else if(number + number1 == 104) {
+			System.out.println(theword= "cheeze");
+		}else if(number + number1 == 105) {
+			System.out.println(theword= "cake");
+		}else if(number + number1 == 106) {
+			System.out.println(theword= "random");
+		}else if(number + number1 == 107) {
+			System.out.println(theword= "word");
+		}else if(number + number1 == 108) {
+			System.out.println(theword= "system");
+		}else if(number + number1 == 109) {
+			System.out.println(theword= "project");
+		}else if(number + number1 == 110) {
+			System.out.println(theword= "deposite");
+		}else if(number + number1 == 111) {
+			System.out.println(theword= "share");
+		}else if(number + number1 == 112) {
+			System.out.println(theword= "wide");
+		}else if(number + number1 == 113) {
+			System.out.println(theword= "length");
+		}else if(number + number1 == 114) {
+			System.out.println(theword= "equal");
+		}else if(number + number1 == 115) {
+			System.out.println(theword= "dot");
+		}else if(number + number1 == 116) {
+			System.out.println(theword= "script");
+		}else if(number + number1 == 117) {
+			System.out.println(theword= "teaser");
+		}else if(number + number1 == 118) {
+			System.out.println(theword= "purchase");
+		}else if(number + number1 == 119) {
+			System.out.println(theword= "bought");
+		}else if(number + number1 == 120) {
+			System.out.println(theword= "pasta");
+		}else if(number + number1 == 121) {
+			System.out.println(theword= "take");
+		}else if(number + number1 == 122) {
+			System.out.println(theword= "cream");
+		}else if(number + number1 == 123) {
+			System.out.println(theword= "hold");
+		}else if(number + number1 == 124) {
+			System.out.println(theword= "battery");
+		}else if(number + number1 == 125) {
+			System.out.println(theword= "charge");
+		}else if(number + number1 == 126) {
+			System.out.println(theword= "depend");
+		}else if(number + number1 == 127) {
+			System.out.println(theword= "endure");
+		}else if(number + number1 == 128) {
+			System.out.println(theword= "limit");
+		}else if(number + number1 == 129) {
+			System.out.println(theword= "cable");
+		}else if(number + number1 == 130) {
+			System.out.println(theword= "language");
+		}else if(number + number1 == 131) {
+			System.out.println(theword= "capasite");
+		}else if(number + number1 == 132) {
+			System.out.println(theword= "head");
+		}else if(number + number1 == 133) {
+			System.out.println(theword= "controller");
+		}else if(number + number1 == 134) {
+			System.out.println(theword= "resistance");
+		}else if(number + number1 == 135) {
+			System.out.println(theword= "side");
+		}else if(number + number1 == 136) {
+			System.out.println(theword= "site");
+		}else if(number + number1 == 137) {
+			System.out.println(theword= "easy");
+		}else if(number + number1 == 138) {
+			System.out.println(theword= "hard");
+		}else if(number + number1 == 139) {
+			System.out.println(theword= "difficult");
+		}else if(number + number1 == 140) {
+			System.out.println(theword= "horrofic");
+		}else if(number + number1 == 141) {
+			System.out.println(theword= "edit");
+		}else if(number + number1 == 142) {
+			System.out.println(theword= "ability");
+		}else if(number + number1 == 143) {
+			System.out.println(theword= "race");
+		}else if(number + number1 == 144) {
+			System.out.println(theword= "durability");
+		}else if(number + number1 == 145) {
+			System.out.println(theword= "skyscraper");
+		}else if(number + number1 == 146) {
+			System.out.println(theword= "castle");
+		}else if(number + number1 == 147) {
+			System.out.println(theword= "town");
+		}else if(number + number1 == 148) {
+			System.out.println(theword= "building");
+		}else if(number + number1 == 149) {
+			System.out.println(theword= "clips");
+		}else if(number + number1 == 150) {
+			System.out.println(theword= "lightning");
+		}
+		else {
+			System.out.println(theword= "garrulous");
+		}
+		Timer myTimer=new Timer();
+        TimerTask gorev=new TimerTask() {
+       	 int sayac=0;
+               @Override
+               public void run() {
+                      sayac++;
+                      if(sayac==1) {
+                    	  System.out.println("                                                       !!!1 seconds left!!!");
+                      }else if(sayac==2) {
+                    	  System.out.println("                                                       !!!2 seconds left!!!");
+                      }else if(sayac==3) {
+                    	  System.out.println("                                                       !!!3 seconds left!!!");
+                      }else if(sayac==4) {
+                    	  System.out.println("                                                       !!!4 seconds left!!!");
+                      }else if(sayac==5) {
+                    	  System.out.println("                                                       !!!5 seconds left!!!");
+                      }else if(sayac==6) {
+                    	  System.out.println("                                                       !!!6 seconds left!!!");
+                      }else if(sayac==7) {
+                    	  System.out.println("                                                       !!!7 seconds left!!!");
+                      }else if(sayac==8) {
+                    	  System.out.println("                                                       !!!8 seconds left!!!");
+                      }else if(sayac==9) {
+                    	  System.out.println("                                                       !!!9 seconds left!!!");
+                      }else if(sayac==10) {
+                    	  System.out.println("                                                       !!!10 seconds left!!!");
+                      }else if(sayac==11) {
+                    	  System.out.println("                                                       !!!11 seconds left!!!");
+                      }else if(sayac==12) {
+                    	  System.out.println("                                                       !!!12 seconds left!!!");
+                      }else if(sayac==13) {
+                    	  System.out.println("                                                       !!!13 seconds left!!!");
+                      }else if(sayac==14) {
+                    	  System.out.println("                                                       !!!14 seconds left!!!");
+                      }else if(sayac==15) {
+                    	  System.out.println("                                                       !!!15 seconds left!!!");
+                      }else if(sayac==16) {
+                    	  System.out.println("                                                       !!!16 seconds left!!!");
+                      }else if(sayac==17) {
+                    	  System.out.println("                                                       !!!17 seconds left!!!");
+                      }else if(sayac==18) {
+                    	  System.out.println("                                                       !!!18 seconds left!!!");
+                      }else if(sayac==19) {
+                    	  System.out.println("                                                       !!!19 seconds left!!!");
+                      }if(sayac==20) {
+                             myTimer.cancel();
+                             System.out.println("GAME OVER");
+                             try { Thread.sleep(3L * 300L); } 
+                     		catch (InterruptedException e) {     
+                     			e.printStackTrace();
+                     			}
+                             System.out.println("You didnt answer them all in time");
+                             System.exit(0);
+                      }
+                    }
+        };
+        myTimer.schedule(gorev,0,3000);
+		String Character1= scan.nextLine();
+				 if(theword.equalsIgnoreCase(Character1))  {
+					puan++;
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");	
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
+					System.out.println(theword +" ✅");
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
+				}else {
+					System.out.println("");
+					System.out.println("");	
+					System.out.println( theword +" ❌");
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
+					test++;
+				}
+		test ++;
+		System.out.println("                                                                                    	 	       guess counter: "+puan);
+		}while(test <20);
+		System.out.println("your score: " +puan+ ("/20"));
+		if (puan >= 20) {
+			System.out.println("damn, bro cooked ngl");
+		}else if (puan >= 10) {
+			System.out.println("very well but you cant be better next time");
+		}else if (puan >= 5) {
+			System.out.println("meh, you not that bad");
+		}else {
+			System.out.println("you can it do better");
+		}
+		System.exit(0);
+	}
+}
+//By Black182
